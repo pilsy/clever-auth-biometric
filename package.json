@@ -1,0 +1,49 @@
+{
+  "name"        : "clever-auth-biometric",
+  "description" : "CleverStack Biometric Authentication Module that allows you to login with your face and any webcam!",
+  "version"     : "0.1.0",
+  "license"     : "MIT",
+  "main"        : "module",
+  "author": {
+    "name"      : "CleverStack",
+    "email"     : "admin@cleverstack.io",
+    "web"       : "http://cleverstack.io"
+  },
+  "collaborators": [
+    "Richard Gustin <richard.gustin86@gmail.com>"
+  ],
+  "repository": {
+    "type"      : "git",
+    "url"       : "git://github.com/CleverStack/clever-auth-biometric.git"
+  },
+  "bugs": {
+    "url"       : "https://github.com/CleverStack/clever-auth-biometric/issues"
+  },
+  "scripts": {
+    "test"      : "grunt test:unit"
+  },
+  "dependencies": {
+    "babel"             : "^5.2.17",
+    "cv"                : "^0.0.3",
+    "ffi"               : "^1.3.1",
+    "opencv"            : "~0.3.1",
+    "ref"               : "^1.0.1",
+    "underscore"        : "~1.4.4"
+  },
+  "devDependencies": {
+    "grunt"             : "~0.4.2",
+    "grunt-prompt"      : "~1.3.0"
+  },
+  "keywords": [
+    "face",
+    "face detection",
+    "face recognition",
+    "face identification",
+    "detection",
+    "recognition",
+    "biometric security",
+    "cleverstack",
+    "cleverstack-module",
+    "cleverstack-backend"
+  ]
+}
